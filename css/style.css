@@ -1,56 +1,3 @@
-/*========================================== MASTER STYLESHEET ===========================================================
-
-	Project     :	PRODUCT LANDING PAGE
-	Version     :	1.0
-	Last Change : 	31/07/2018
-	Primary Use :   PRODUCT LANDING PAGE
-
-====================================================================================================================*/
-
-/*========================================== LAYOUT ===================================================================
-
-	 1.GLOBAL CSS
-	 2.COMMON CSS3
-	 3.NAVIGATION
-	 4.BUTTON
-	 5.HEADER
-	 6.ABOUT US
-	 7.PROCESS
-	 8.BLOG AREA
-	 9.PRICING
-	 10.COUNTERUP
-	 11.TESTIMONIAL
-	 12.RESOURSE
-	 13.MASONRY
-	 14.CTA AREA
-	 15.CLIENDS
-	 16.SUBSCRIBE
-	 17.FAQ
-	 18.CONTACT
-	 19.FOOTER
-	 20.MEDIA QUERIES
-	
-		
-======================================================================================================================*/
-
-/*========================================== COLOR CODES ===============================================================
-
-	Background         :#ffffff [White]
-	Theme Color        :#6433D7 [Blue]
-	Content Color      :#333333 [Black]
-	Button bg Color    :#6433D7 [Blue]
-
-================================================================================================================*/
-
-/*========================================== TYPOGRAPHY =====================================================
-
-	Heading:font-family: 'poppins', sans-serif , Arial , Vedana , 'Trebuchet MS';
-	Body   :font-family: 'poppins', sans-serif;
-
-====================================================================================================================*/
-
-/*========================================== 1.GLOBAL CSS START ===========================================*/
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
 body {
   background: #ffffff;
@@ -276,7 +223,7 @@ h6 {
 /*================================================================ 5.HEADER START ================================================*/
 
 .header-bg {
-  background-image: url("../../images/1920x750x2.jpg");
+  background-image: url("../images/1920x750x2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -416,7 +363,7 @@ h1 {
   letter-spacing: 1px;
 }
 .countup-area {
-  background-image: url("../../images/1920x750x1.jpg");
+  background-image: url("../images/1920x750x1.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
