@@ -1,0 +1,1037 @@
+/*========================================== MASTER STYLESHEET ===========================================================
+
+	Project     :	PRODUCT LANDING PAGE
+	Version     :	1.0
+	Last Change : 	31/07/2018
+	Primary Use :   PRODUCT LANDING PAGE
+
+====================================================================================================================*/
+
+/*========================================== LAYOUT ===================================================================
+
+	 1.GLOBAL CSS
+	 2.COMMON CSS3
+	 3.NAVIGATION
+	 4.BUTTON
+	 5.HEADER
+	 6.ABOUT US
+	 7.PROCESS
+	 8.BLOG AREA
+	 9.PRICING
+	 10.COUNTERUP
+	 11.TESTIMONIAL
+	 12.RESOURSE
+	 13.MASONRY
+	 14.CTA AREA
+	 15.CLIENDS
+	 16.SUBSCRIBE
+	 17.FAQ
+	 18.CONTACT
+	 19.FOOTER
+	 20.MEDIA QUERIES
+	
+		
+======================================================================================================================*/
+
+/*========================================== COLOR CODES ===============================================================
+
+	Background         :#ffffff [White]
+	Theme Color        :#6433D7 [Blue]
+	Content Color      :#333333 [Black]
+	Button bg Color    :#6433D7 [Blue]
+
+================================================================================================================*/
+
+/*========================================== TYPOGRAPHY =====================================================
+
+	Heading:font-family: 'poppins', sans-serif , Arial , Vedana , 'Trebuchet MS';
+	Body   :font-family: 'poppins', sans-serif;
+
+====================================================================================================================*/
+
+/*========================================== 1.GLOBAL CSS START ===========================================*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+body {
+  background: #ffffff;
+  color: #666666;
+  font-family: "poppins", sans-serif, Arial, Vedana, "Trebuchet MS";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+p {
+  margin-bottom: 0px;
+}
+h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+h4 {
+  font-family: "poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+h5 {
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+h6 {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+/* SAFARI CLASS */
+
+.rowsafari {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+a:hover {
+  color: #6433d7;
+  text-decoration: none !important;
+  outline: none !important;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*================================================= 1.GLOBAL CSS END ===================================================*/
+
+/*========================================== 2.COMMON CSS START ===========================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
+.section-align {
+  text-align: center;
+}
+.section-space {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.section-lightgray-bg {
+  background-color: #f2f2f2;
+}
+.section-white-bg {
+  background-color: #ffffff;
+}
+.subtitle {
+  color: #6433d7;
+  margin-bottom: 10px;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+.img-radius {
+  border-radius: 50%;
+}
+.section-margin-bottom {
+  margin-bottom: 15px;
+}
+.section-padding-bottom {
+  padding-bottom: 15px;
+}
+.section-padding-bottom30 {
+  padding-bottom: 30px;
+}
+/*========================================== 2.COMMON CSS END ===========================================*/
+
+/*================================================= 3.NAVIGATION START ==============================================*/
+
+.nav-style {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.navbar-nav {
+  float: right !important;
+}
+.logo-style {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-color {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.nav-btn {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-light .navbar-nav .active > .nav-style,
+.navbar-light .navbar-nav .nav-style.active,
+.navbar-light .navbar-nav .nav-style.show,
+.navbar-light .navbar-nav .show > .nav-style {
+  color: #6433d7 !important;
+}
+/*======================================================= 3.NAVIGATION END =====================================================*/
+
+/*===================================================== 4.BUTTON START ========================================================*/
+
+.boxed-btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6433d7;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in;
+  letter-spacing: 1px;
+  border: 1px solid #6433d7;
+}
+.btn-wrapper {
+  margin-top: 30px;
+}
+.btn-rounded {
+  border-radius: 5px;
+}
+.boxed-btn:hover {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #6433d7;
+}
+.btn-right-align {
+  padding-right: 15px;
+}
+#return-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #6433d7;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#return-to-top:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+/*============================================================== 4.BUTTON END ================================================*/
+
+/*================================================================ 5.HEADER START ================================================*/
+
+.header-bg {
+  background-image: url("../../images/1920x750x2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.header-bg,
+.header-text-color,
+h1 {
+  color: #ffffff;
+}
+.head-box {
+  background-color: #6433d7;
+  padding: 10px 20px;
+  display: table;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.head-box h5 {
+  color: #ffffff;
+}
+/*================================================================== 5.HEADER END =====================================================*/
+
+/*============================================================ 6.ABOUT US AREA START ===================================================*/
+
+.about-box {
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  border-radius: 5px;
+}
+.about-box:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 5px solid #6433d7;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
+/*============================================================== 6.ABOUT US AREA END ========================================================*/
+
+/*=============================================================== 7.PROCESS AREA START ======================================================*/
+
+.pro-second-col {
+  padding: 0px 30px 30px 30px;
+}
+.pro-second-row {
+  padding: 0px 30px 0px 30px;
+}
+.process-first-col-subhead {
+  padding-bottom: 30px;
+}
+/*================================================================== 7.PROCESS AREA END ==================================================*/
+
+/*================================================================== 8.BLOG AREA START ====================================================*/
+
+.blog-box {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 16px 40px #ededed;
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.item-blog {
+  position: relative;
+  overflow: hidden;
+}
+.item-blog img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item-blog:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+.blog-box-div {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+/*========================================================================= 8.BLOG AREA END ====================================================*/
+
+/*=================================================================== 9.PRICING AREA START =====================================================*/
+
+.subtitle-pricing {
+  color: #6433d7;
+  font-size: 25px;
+}
+.item {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  margin: 0 auto;
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+.price-h4-top-space {
+  margin-top: 15px;
+}
+/*=================================================================== 9.PRICING AREA END ===========================================================*/
+
+/*============================================================ 10.COUNTERUP AREA START =========================================================*/
+
+.count-num {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.title-counterup {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.countup-area {
+  background-image: url("../../images/1920x750x1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.col-border {
+  border-right: 1px solid #a9a9a9;
+}
+/* ================================================================== 10.COUNTERUP AREA END ============================================================*/
+
+/* ===================================================== 11.TESTIMONIAL AREA START ===============================================================*/
+
+.slider-des {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.media-left-test {
+  background-color: #ffffff;
+  vertical-align: middle;
+  padding-left: 15px;
+  text-align: left;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+.testimonial-p-letter {
+  letter-spacing: 1px;
+}
+/* ===================================================== 11.TESTIMONIAL AREA END ===============================================================*/
+
+/* ===================================================== 12.RESOURSE AREA START =================================================================*/
+
+.resourse li::before {
+  color: #6433d7;
+  content: "\f058";
+  font-size: 25px;
+  font-family: fontawesome;
+  padding-right: 15px;
+  left: 0px;
+  transition: all 0.3s ease;
+  vertical-align: top;
+}
+.resourse li {
+  font-size: 17px;
+}
+/* ===================================================== 12.RESOURSE AREA START =================================================================*/
+
+/* =================================================== 13.MASONRY AREA START ===============================================*/
+
+.row-col-gallary {
+  padding-top: 30px;
+}
+/* =================================================== 13.MASONRY AREA END ===============================================*/
+
+/* ================================================================== 14.CTA AREA START =======================================================*/
+
+.section-title-cta {
+  padding-bottom: 0px;
+}
+/* ============================================================== 14.CTA AREA END =====================================================================*/
+
+/* ========================================================== 15.CLIENDS AREA START ===================================================================*/
+
+.client-sec-align {
+  text-align: center;
+  display: inline-block;
+  padding: 0 15px;
+  width: 100%;
+}
+.row.rowsafari.client-slider.owl-carousel.owl-theme {
+  margin: 0 auto;
+}
+.client-slider.owl-theme .owl-controls {
+  display: none !important;
+}
+/* ========================================================== 15.CLIENDS AREA END ===================================================================*/
+
+/* ============================================================ 16.SUBSCRIBE AREA START =============================================================*/
+
+.subscribe-box {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.supscripe-area {
+  background-image: url("../../images/1920x750x4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.supscripe-color {
+  color: #6433d7;
+  padding-bottom: 5px;
+}
+.form-input {
+  border: 1px solid #ededed;
+  padding: 0 20px;
+  min-height: 0px;
+}
+.boxed-btn-subscribe {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6433d7;
+  padding: 0px 20px;
+  transition: all 0.3s ease-in;
+  height: 43px;
+}
+.boxed-btn-subscribe:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+.sub {
+  padding-bottom: 30px;
+}
+.SuccessMsg,
+.sucessMessage {
+  color: #0fa80f;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  padding-left: 20px;
+}
+.failMsg,
+.failMessage {
+  color: #ff0000;
+  font-size: 14px !important;
+  line-height: 24px !important;
+}
+.messageDiv {
+  padding-top: 10px;
+}
+.subs-error-top {
+  color: #ff0000;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  padding-top: 10px;
+}
+.form-textarea:-moz-placeholder,
+.form-input:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #666666;
+  opacity: 1;
+}
+.form-textarea::-webkit-input-placeholder,
+.form-input::-webkit-input-placeholder {
+  /* Chrome */
+  color: #666666;
+}
+.form-textarea:-ms-input-placeholder,
+.form-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #666666;
+}
+.form-textarea::-moz-placeholder,
+.form-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #666666;
+  opacity: 1;
+}
+.form-textarea.errorClass:-moz-placeholder,
+.form-input.errorClass:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #ff0000;
+  opacity: 1;
+}
+.form-textarea.errorClass::-webkit-input-placeholder,
+.form-input.errorClass::-webkit-input-placeholder {
+  /* Chrome */
+  color: #ff0000;
+}
+.form-textarea.errorClass:-ms-input-placeholder,
+.form-input.errorClass:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ff0000;
+}
+.form-textarea.errorClass::-moz-placeholder,
+.form-input.errorClass::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff0000;
+  opacity: 1;
+}
+/* ============================================================= 16.SUBCRIPE AREA END ============================================================*/
+
+/* ========================================================= 17.FAQ AREA START ==================================================================*/
+
+.faq h4::before {
+  background-color: #6433d7;
+  color: #ffffff;
+  content: "\f128";
+  font-size: 30px;
+  font-family: fontawesome;
+  padding: 5px 10px;
+  left: 0px;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.h4-head-position {
+  position: relative;
+  border: 1px solid #d4cfcd;
+  padding: 5px 5px 5px 45px;
+  border-radius: 5px;
+  width: 100%;
+}
+.panel-body {
+  padding: 15px;
+  border-left: 1px solid #d4cfcd;
+  border-right: 1px solid #d4cfcd;
+  border-bottom: 1px solid #d4cfcd;
+  border-radius: 5px;
+}
+.faq-box {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.faq-box p {
+  padding: 0px;
+  font-size: 20px;
+  color: #6433d7;
+}
+.faq-box h4::before {
+  content: none;
+}
+/* ============================================================= 17.FAQ AREA END ============================================================*/
+
+/* ========================================================== 18.CONTACT US AREA START ========================================================*/
+
+.form-box {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.form-input {
+  border: 1px solid #ededed;
+  height: 55px;
+  width: 100%;
+  padding: 0 20px;
+  min-height: 0px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.submit-btn {
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff6780;
+  border: none;
+  cursor: pointer;
+}
+.form-control-mail {
+  border: 1px solid #ededed;
+  height: 60px;
+  padding: 0 20px;
+  min-height: 0px;
+}
+.form-control-text {
+  border: 1px solid #ededed;
+  height: 60px;
+  padding: 15px 20px;
+  min-height: 150px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.form-textarea-top-spacing {
+  padding-top: 20px;
+}
+.first-name-head {
+  font-size: 15px;
+  float: left;
+  padding-bottom: 5px;
+}
+.form-res label {
+  color: #ff0000;
+  font-weight: 600;
+  padding-top: 10px;
+}
+label {
+  margin-bottom: 0px;
+}
+/* ============================================================ 18.CONTACT AREA END ==========================================================*/
+
+/*=============================================================== 19.FOOTER AREA START ======================================================*/
+
+.footer-area {
+  background-image: url(../../images/1920x750x3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-top {
+  padding: 80px 0 80px 0;
+}
+.footer-li-icon {
+  display: table-cell;
+  padding: 0 5px;
+}
+.footer-li-icon-first {
+  padding-left: 0px;
+}
+.footer-li-icon-last {
+  padding-right: 0px;
+}
+.footer-li-space {
+  list-style-type: none;
+  padding: 5px 0;
+}
+.footer-li-space:last-child {
+  padding-bottom: 0px;
+}
+.footer-li-space:first-child {
+  padding-top: 0px;
+}
+.footer-list-name {
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #666666;
+}
+.reach-img-display {
+  display: table-cell;
+}
+.reach-us-contant-display {
+  display: table-cell;
+  padding-left: 15px;
+}
+.para {
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  word-break: break-all;
+}
+.reach-us-contant-para {
+  margin-bottom: 20px;
+}
+.footer-social-icon {
+  border-radius: 50%;
+}
+.copy-right {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.line-mar {
+  margin-top: 15px;
+  border-top: 1px solid #999999;
+}
+.footer-align {
+  text-align: center;
+}
+/* ========================================================= 19.FOOTER AREA END ============================================================= */
+
+/* ========================================================== 20.MEDIA QUERIES START ==================================================*/
+
+@media only screen and (max-width: 991px) {
+  .section-space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .header-bg {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+  .before-img-one:before {
+    content: "\f015";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .before-img-two:before {
+    content: "\f128";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .before-img-three:before {
+    content: "\f0c1";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .before-img-four:before {
+    content: "\f1d8";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .before-img-five:before {
+    content: "\f03e";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .before-img-six:before {
+    content: "\f064";
+    font-size: 17px;
+    font-family: fontawesome;
+    left: 0px;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+  }
+  .section-title-cta {
+    padding-bottom: 0px !important;
+  }
+  .nav-btn {
+    margin-top: 20px;
+    padding-bottom: 5px;
+  }
+  .res-border-bottom {
+    border-bottom: 1px solid #eeeeee;
+    width: 250px;
+  }
+  .navbar-collapse {
+    max-height: 180px;
+    overflow: auto;
+  }
+  .nav-color {
+    padding: 10px 20px;
+  }
+  .nav-style {
+    padding-bottom: 10px;
+  }
+  .footer-top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .subscribe-box,
+  .faq-box {
+    width: 100%;
+  }
+  .res-resourse-img-align {
+    text-align: left;
+  }
+  .res-form {
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .res-wrapper {
+    margin-bottom: 30px;
+  }
+  .panel-body {
+    display: table;
+  }
+  .form-box {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+  }
+  .res-padding-bottom {
+    padding-bottom: 30px;
+  }
+  .res-faq-last-head {
+    margin-bottom: 15px;
+  }
+  .res-resourse-padding-bottom {
+    padding-bottom: 15px;
+  }
+  .col-border {
+    border: none;
+  }
+  .media-left-test {
+    width: 100%;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .res-resourse-h3 {
+    text-align: left;
+  }
+  .row-col-gallary {
+    padding: 0px;
+  }
+  .res-row {
+    padding-bottom: 0px !important;
+  }
+  .section-title {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .res-box {
+    margin-bottom: 0px;
+  }
+  .resourse li {
+    display: table;
+  }
+  .resourse li::before {
+    display: table-cell;
+  }
+  .faq h4 {
+    display: table;
+  }
+  .res-resourse {
+    text-align: left;
+  }
+  .navbar-nav {
+    float: left !important;
+  }
+  .res-product {
+    text-align: left;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 991px) {
+  .blog-box {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .about-box {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .form-res-width {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .res-center {
+    padding-top: 30px;
+  }
+  .count-res-padding {
+    padding-bottom: 30px;
+  }
+  .pro-second-col {
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pro-second-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+  .price-res-padding {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .btn-right-align {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .faq h4::before {
+    height: 40px;
+  }
+}
+/* ========================================================== 20.MEDIA QUERIES END ==================================================*/
+
+/* SAFARI MENU ISSUES*/
+
+@media only screen and (min-width: 992px) {
+  /*safari Browser*/
+  .navbar-expand-lg .navbar-collapse {
+    float: right !important;
+    display: block !important;
+    line-height: 24px !important;
+  }
+  .navbar-expand-lg .safari-menu {
+    display: inline-block !important;
+    vertical-align: middle !important;
+  }
+}
